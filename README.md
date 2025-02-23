@@ -31,21 +31,21 @@ frontend-challenges/
 
 ## 🚀 How to Run
 1. Clone the repository:
-   ```sh
+   ```jsx
    git clone https://github.com/danielkhakbaz/front-end-challenges.git
    ```
 2. Navigate to a challenge folder:
-   ```sh
+   ```jsx
    cd challenge-name
    ```
 3. Open `index.html` in a browser or run the project (if it's a React/Next.js app):
-   ```sh
+   ```jsx
    npm install
    npm run dev
    ```
 
 ## 📜 Challenges List
-- ✅ **Tree Making:** [tree-making](#) - (Short Description)
+- ✅ **Tree Making**
 - 🚧 **More challenges coming soon!**
 
 ## 📢 Contributing
