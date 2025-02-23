@@ -18,15 +18,16 @@ Depending on the challenge, I use a mix of the following technologies:
 
 ## 📂 Repository Structure
 Each challenge is organized in its own folder:
-```
+```jsx
 frontend-challenges/
 │── challenge-name-1/
-│   ├── index.html (or React/Next.js project)
-│   ├── styles.css (or Tailwind/SASS)
-│   ├── script.js (if applicable)
+│   └── ...
+│
 │── challenge-name-2/
+│   └── ...
+│
 │── ...
-│── README.md
+└── README.md
 ```
 
 ## 🚀 How to Run
