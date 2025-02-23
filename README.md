@@ -45,8 +45,7 @@ frontend-challenges/
    ```
 
 ## 📜 Challenges List
-- ✅ **Challenge 1:** [Challenge Name](#) - (Short Description)
-- ✅ **Challenge 2:** [Challenge Name](#) - (Short Description)
+- ✅ **Tree Making:** [tree-making](#) - (Short Description)
 - 🚧 **More challenges coming soon!**
 
 ## 📢 Contributing
