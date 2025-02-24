@@ -139,4 +139,4 @@ const Entry = ({ tree, depth, path, expandedPaths, toggleExpand }: {
   );
 };
 
-export default App;
+export default App; 
