@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import { Providers } from "@/shared/providers";
+import { ModeToggle } from "@/shared/components/custom/toggle-theme";
 import { geistSans, geistMono } from "@/shared/fonts";
 import "@/shared/styles/globals.css";
 
@@ -13,9 +15,13 @@ type RootLayoutProps = {
 
 const RootLayout = async ({ children }: RootLayoutProps) => {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+        <Providers>
+          <h1 className="text-4xl underline">Recipes</h1>
+          <ModeToggle />
+          {children}
+        </Providers>
       </body>
     </html>
   );
